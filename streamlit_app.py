@@ -9,7 +9,7 @@ st.text("Version : GPT-4-turbo-0125-preview")
 
 user = st.radio(
     "What's your name",
-    [":rainbow[Bang]"],
+    [":rainbow[MIJUNG BANG]"],
     captions = ["전략금융|mjbang@lsholdings.com"])
 
 st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', unsafe_allow_html=True)
