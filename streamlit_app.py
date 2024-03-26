@@ -20,7 +20,7 @@ st.write('<style>div.row-widget.stRadio > div{flex-direction:row;}</style>', uns
 #    st.write("You didn\'t select USER NAME")
 
 def chat_with_gpt():
-    openai.api_key = "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"
+    openai.api_key = st.secrets["key"]
     with st.container():
         if "openai_model" not in st.session_state:
             st.session_state["openai_model"] = "gpt-4-0125-preview"
